@@ -1,48 +1,38 @@
-# street-light-vehicle-detection
-An Arduino-based automatic street light system that turns ON when a vehicle is detected using IR sensor.
-# 💡 Automatic Street Light Control System using Vehicle Detection
+# 🚦 Street Light Control System Using Vehicle Detection
 
-An Arduino-based smart street lighting system that automatically turns the light ON when a vehicle is detected and turns it OFF after a delay. Helps conserve energy and promotes automation in urban infrastructure.
+An Arduino-based project where a street light automatically turns ON or OFF based on the presence of a vehicle, using an LDR sensor.
 
-## 🎯 Features
+## 💡 Features
 
-- Detects approaching vehicle using IR sensor.
-- Automatically switches street light ON.
-- Turns OFF light after delay if no vehicle detected.
-- Energy efficient and fully automatic.
+- Detects ambient light intensity using LDR.
+- Automatically switches light ON when it’s dark.
+- Efficient use of power—light stays OFF in bright conditions.
+- Useful for smart street lighting systems.
 
-## ⚙️ Components Used
+## 🔧 Technologies Used
 
-- Arduino Uno
-- IR Sensor Module
-- Relay Module / Transistor
-- LED or Street Light Bulb
-- 9V Battery or Adapter
-
-## 🛠️ Technologies
-
-- Arduino C/C++
-- Sensor-based automation
-- Embedded system logic
+- Arduino UNO
+- LDR (Light Dependent Resistor)
+- LED or street light module
+- C++ (Arduino language)
 
 ## 📸 Screenshot
 
-![Street Light Screenshot]([aw.githubusercontent.com/Sakshi-Kalamb/street-light-vehicle-detection/refs/heads/main/project.png](https://raw.githubusercontent.com/Sakshi-Kalamb/street-light-vehicle-detection/refs/heads/main/project.png))
+![Street Light Project](https://raw.githubusercontent.com/Sakshi-Kalamb/street-light-vehicle-detection/refs/heads/main/project.png)
 
-## 🚀 How to Run
+## 🧠 Working Principle
 
-1. Connect IR sensor to Arduino (digital pin).
-2. Connect LED or light through relay/transistor.
-3. Upload the Arduino code via Arduino IDE.
-4. Move object (hand/vehicle) in front of sensor to test.
+- The LDR senses the amount of ambient light.
+- When the light level falls below a threshold (e.g., during night or vehicle shadow), the Arduino switches ON the street light.
+- Otherwise, the light stays OFF during the day.
 
-## 📂 Files Included
+## 🔌 How to Run
 
-- `street_light.ino` — Main Arduino sketch.
-- Circuit diagram image
-- Screenshot of working setup
-- PPT (if available)
+1. Connect the LDR to analog pin A0, and LED to pin 13.
+2. Upload the code to your Arduino using Arduino IDE.
+3. Observe how the light turns ON in darkness and OFF in brightness.
 
-## 🎓 Project Inspiration
+## ✍️ Project Inspiration
 
-Developed to demonstrate how basic sensors and microcontrollers can be used to reduce electricity consumption and implement smart city solutions.
+Created as part of an IoT workshop to demonstrate real-time automation using sensors with Arduino.
+
