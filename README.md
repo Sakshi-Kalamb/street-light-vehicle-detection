@@ -27,7 +27,7 @@ An Arduino-based smart street lighting system that automatically turns the light
 
 ## 📸 Screenshot
 
-![Street Light Screenshot](aw.githubusercontent.com/Sakshi-Kalamb/street-light-vehicle-detection/refs/heads/main/project.png)
+![Street Light Screenshot]([aw.githubusercontent.com/Sakshi-Kalamb/street-light-vehicle-detection/refs/heads/main/project.png](https://raw.githubusercontent.com/Sakshi-Kalamb/street-light-vehicle-detection/refs/heads/main/project.png))
 
 ## 🚀 How to Run
 
